@@ -1,0 +1,57 @@
+{
+  "contractName": "DegreeVerificationSystem",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "name": "_rollNumber",
+          "type": "uint256"
+        }
+      ],
+      "name": "addDegree",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_rollNumber",
+          "type": "uint256"
+        }
+      ],
+      "name": "verifyDegree",
+      "outputs": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "isVerified",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+   
+  ],
+  "deployedBytecode": "0x1234567890abcdef",
+  "networks": {
+    "1": {
+      "events": {},
+      "links": {},
+      "address": "0x1234567890abcdef",
+      "transactionHash": "0xabcdef1234567890"
+    }
+    
+  }
+}
